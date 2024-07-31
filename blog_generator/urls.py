@@ -3,5 +3,5 @@ from . import views
 
 
 urlspatterns=[
-    path('',views.index),
+    path('',views.index, name="index"),
 ]
